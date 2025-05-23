@@ -9,7 +9,7 @@ import Cart from "./pages/cart/Cart";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/e-commerce-redux">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/register" element={<Register />} />
